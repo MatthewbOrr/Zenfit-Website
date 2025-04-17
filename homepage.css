@@ -254,6 +254,12 @@ li {
   border-radius: 8px;
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
 }
+.pic {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
 .button7 {
   background-color: #aa56d2; /* purple */
   display: block;
