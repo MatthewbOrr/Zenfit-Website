@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link href="../styles/core-style.css" rel="stylesheet"  type="text/css">
+    <link href="../styles/membership.css" rel="stylesheet"  type="text/css">
+    <script src="../scripts/sign-up.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img class="logo" src="../images/ZenFit-Logo.png" alt="ZenFitStudio" width="100px"></li></a>
+                <li><a href="membership.html"><button class="button button1">membership</button></a></li>
+                <li><a href="personal-trainers.html"><button class="button button2">personal trainers</button></a></li>
+                <li><a href="classes.html"><button class="button button3">Classes</button></a></li>
+                <li><a href="about-us.html"><button class="button button4">About Us</button></a></li>
+            </ul> 
+            <ul style="float:right; margin-top: -80px;">
+                <li><button class="button button5" onclick="openPopup1()">Sign Up</button></li>
+                <li><button class="button button6" onclick="openPopup2()">Sign In</button></li>
+        </ul>
+    </nav>
+</header>
+<div class="container1">
+    <div class="popup1" id="popup">
+        <div class="close-btn1" onclick="closePopup1()">&times;</div>
+            <div class="signup-box">
+                <h1 class="title">Sign Up </h1>
+                <form class="form">
+                    <table class="table">
+                        <tr class="trow">
+                            <td><div class="row"><label for="first name">First Name</label>
+                                <input type="text" placeholder="First Name">
+                            </div></td>
+                            <td><div class="row"><label for="last name">Last Name</label>
+                                <input type="text" placeholder="Last Name">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="row">
+                                <label for="last name">User Name</label>
+                                <input type="text" placeholder="User Name">
+                            </div></td>
+                            <td><div class="row">
+                                <label for="email">Email</label>
+                                <input type="text" placeholder="Email">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="row">
+                                <label for="password">Password</label>
+                    <input type="text" placeholder="Password">
+                            </div></td>
+                            <td><div class="row">
+                                <label for="password">Confirm Password</label>
+                                <input type="text" placeholder="Confirm Password">
+                            </div></td>
+                        </tr>
+                    </table>   
+                </form>
+                <input class="button-up" type="button" value="Submit">
+                <p class="sign-in">Already have an account? <a onclick="closePopup1()" href="sign-in.html">Sign in</a> here</p>
+            </div>
+    </div>
+</div>
+<div class="container2">
+    <div class="popup2" id="popup2">
+        <div class="close-btn2" onclick="closePopup2()">&times;</div>
+        <div class="signup-box1">
+            <h1 class="title1">Sign In</h1>
+            <form class="form1">
+                <table class="table1">
+                    <tr>
+                        <td><div class="row1">
+                            <label for="last name">User Name</label>
+                            <input type="text" placeholder="User Name">
+                        </div></td>
+                        <td><div class="row1">
+                            <label for="password">Password</label>
+                            <input type="text" placeholder="Password">
+                        </div></td>
+                    </tr>
+                </table>   
+            </form>
+            <input class="button-in" type="button" value="Submit">
+            <p class="sign-in">Don't have an account? <a href="sign-up.html">Sign Up</a> here</p>
+        </div>
+    </div>
+</div>
+
+    </header>
+        <section class="bigbox">
+            <table>
+                <tr>
+                    <td><div class="box"><img src="../images/basic-membership.png" alt="basic-membership" width="400" class="pic"></div></td>
+                    <td><div class="box"><img src="../images/friends-membership.png" alt="friends-membership" width="400" class="pic"></div></td>
+                    <td><div class="box"><img src="../images/premium-membership.png" alt="premium-membership" width="400" class="pic"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="box box-text"><p>Perfect for individuals looking for essential gym access and a solid workout routine. <br>
+                        <br>
+                        - Full access to gym equipment & facilities<br>
+                        - Unlimited self-guided workouts<br>
+                        - Access to select group fitness classes<br>
+                        - Locker room & shower access<br>
+                        - No long-term contract
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </p></div></td>
+                    <td><div class="box box-text"><p>Designed for those who enjoy working out with a partner and getting extra perks.<br>
+                        <br>
+                        - All Basic Membership benefits<br>
+                        - Bring a friend for free (limited visits per month)<br>
+                        - Discounted rates on personal training sessions<br>
+                        - Access to exclusive group training sessions<br>
+                        - 10% off ZenFit Studio merchandise
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </p></div></td>
+                    <td><div class="box box-text"><p>
+                        Ideal for those who want full access, VIP treatment, and premium amenities.<br>
+                        <br>
+                        - All Friends Membership benefits<br>
+                        - Unlimited guest passes<br>
+                        - Unlimited access to all group fitness classes (including premium sessions)<br>
+                        - Monthly body composition analysis & fitness assessment<br>
+                        - Priority booking for classes & training sessions<br>
+                        - Complimentary smoothie or drink per visit<br>
+                        - 15% off ZenFit Studio merchandise & café items<br>
+                        </p></div></td>
+                </tr>
+            </table>
+        </section>
+    <div class="banner1">
+            <H2 class="heading1">Additional Information</H2>
+    </div>
+    <section>
+        <div class="container1">
+            <p class="container1-text">
+                - Flexible Membership Options: We offer monthly and annual plans with no hidden fees. Upgrade or cancel anytime with ease. <br>
+                - State-of-the-Art Facilities: Enjoy high-quality equipment, spacious workout areas, and a clean, welcoming environment.<br>
+                - Expert Trainers: Our certified trainers and instructors are here to guide you, whether you’re a beginner or an experienced athlete.<br>
+                - Community & Support: Join a positive, motivating community that encourages your fitness journey.<br>
+                - Wellness & Recovery: Access stretching areas, foam rollers, and recovery resources to keep you feeling your best.<br>
+                - Special Events & Workshops: Get exclusive invites to fitness challenges, workshops, and social events to stay engaged and inspired.<br>
+                <br>
+                At ZenFit Studio, we’re committed to helping you achieve your fitness goals in a way that works for you. Let’s get stronger together!
+            </p>
+        </div>
+    </section>
+    <div class="banner2">
+        <H2 class="heading2">Promotions</H2>
+    </div>
+    <section>
+        <div class="container2">
+            <p class="container2-text">
+                1. New Member Special – First Month for Only $10! 🎉<br>
+                - Kickstart your fitness journey with ZenFit Studio! Sign up today and enjoy your first month for just $10. No long-term commitment—just great workouts in a supportive community!
+            </p>
+        </div>
+        <div class="container2">
+            <p class="container2-text">
+                2. Bring a Friend & Get a Free Month! 💪<br>
+                Working out is better together! Refer a friend to ZenFit Studio, and when they sign up for a membership, you’ll receive one month FREE as a thank-you for spreading the fitness love!
+            </p>
+        </div>
+        <div class="container2">
+            <p class="container2-text">
+                3. Premium Upgrade – 20% Off Your First 3 Months! 🔥<br>
+                Ready to take your fitness to the next level? Upgrade to our Premium Membership and enjoy 20% off your first three months—including unlimited guest passes, priority class bookings, and more!
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="icon">
+            <li><img src="../images/f-icon.png" alt="facebook" width="40px"></li>
+            <li><img src="../images/i-icon.png" alt="instagram" width="40px"></li>
+            <li><img src="../images/x-icon.png" alt="x" width="40px"></li>
+        </ul>
+        <div class="fbuttons">
+            <ul>
+                <li><a href="index.html"><img class="logo" src="../images/ZenFit-Logo.png" alt="ZenFitStudio" width="100px"></li></a>
+                <li><a href="membership.html"><button class="button button1">membership</button></a></li>
+                <li><a href="personal-trainers.html"><button class="button button2">personal trainers</button></a></li>
+                <li><a href="classes.html"><button class="button button3">Classes</button></a></li>
+                <li><a href="about-us.html"><button class="button button4">Contact Us/FAQ</button></a></li>
+                <li class="terms"><a href="terms-policy.html">Terms of Service</a></li>
+                <li class="terms"><a href="terms-policy.html">Privacy Poicy</a></li>
+            </ul> 
+        </div> 
+    </footer>
+</body>
+</html>
