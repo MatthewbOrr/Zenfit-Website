@@ -1,6 +1,6 @@
 body {
-    background: #DF9DFF;
-    color: white;
+    background: #f3dcff;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,8 @@ li {
   display: inline-block;
   margin: 0px;
 }
-.logo {float: left;
+.logo {
+  float: left;
 } 
 .button {
     background-color: #DF9DFF; /* purple */
@@ -33,8 +34,9 @@ li {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
   }
-  .button {margin: 0 0 30px 20px;
+  .button {margin: 0 0 30px 30px;
     float:right;
     border-radius: 8px;
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
@@ -48,6 +50,10 @@ li {
   .button6 {
     float: right;
     margin-right: 50px;
+  }
+  .button7 {
+    font-size: larger;
+    padding: 20px 40px;
   }
 
 /* Sign up box looks */
@@ -238,11 +244,6 @@ li {
   color:white;
 }
 
-
-
-
-
-
 .video {
   display: block;
   border: 2px solid black;
@@ -264,8 +265,7 @@ li {
   background-color: #aa56d2; /* purple */
   display: block;
   float: none;
-  margin: auto;
-  margin-bottom: 30px;
+  margin: 50px auto;
 }
 .classes {
   display: flex;
@@ -293,6 +293,7 @@ li {
 .banner {
   box-sizing: border-box;
   background-color: #aa56d2;
+  margin: 50px 0;
   width: 100%;
   height: 220px;
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.4), 0 6px 4px 0 rgba(0,0,0,0.19);
@@ -318,14 +319,27 @@ li {
 .bimages-slide img {
     border: 2px solid black;
 }
+.heading {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  margin: 50px;
+}
+.heading1 {
+  box-sizing: border-box;
+  background-color: #aa56d2;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.4), 0 6px 4px 0 rgba(0,0,0,0.19);
+}
 .bigbox {
   display: flex;
-  margin: 50px auto;
+  margin: 80px auto;
   width: 80%;
 }
 .box {
   border-radius: 8px;
-  margin: 10px;
+  margin: 20px;
   font-size: large;
 }
 .box-text {

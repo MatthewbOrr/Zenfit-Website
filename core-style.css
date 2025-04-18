@@ -1,6 +1,6 @@
 body {
-    background: #DF9DFF;
-    color: white;
+    background: #f3dcff;
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,9 @@ li {
   display: inline-block;
   margin: 0px;
 }
-.logo {float: left;} 
+.logo {
+  float: left;
+} 
 .button {
     background-color: #DF9DFF; /* purple */
     border: none;
@@ -32,8 +34,9 @@ li {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
   }
-  .button {margin: 0 0 30px 20px;
+  .button {margin: 0 0 30px 30px;
     float:right;
     border-radius: 8px;
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);

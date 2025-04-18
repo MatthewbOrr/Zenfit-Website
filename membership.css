@@ -16,6 +16,7 @@
   .heading1 {
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
     text-align: center;
+    color: white;
     padding: 5px;
     margin: 20px;
   }
@@ -29,12 +30,13 @@
   .heading2 {
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
     text-align: center;
+    color: white;
     padding: 5px;
     margin: 20px;
   }
   .container1 {
     box-sizing: border-box;
-    background-color: #aa56d2;
+    background-color: #DF9DFF;
     width: 80%;
     margin: 50px auto;
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.4), 0 6px 4px 0 rgba(0,0,0,0.19);
@@ -45,7 +47,7 @@
   }
   .container2 {
     box-sizing: border-box;
-    background-color: #aa56d2;
+    background-color: #DF9DFF;
     width: 60%;
     margin: 50px auto;
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.4), 0 6px 4px 0 rgba(0,0,0,0.19);
