@@ -3,6 +3,7 @@
     text-align: center;
     color: white;
     margin: 50px;
+    letter-spacing: 3px;
 }
 .heading1 {
     box-sizing: border-box;
@@ -95,4 +96,50 @@
     font-size: 16px;
     border-radius: 10px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4), 0 2px 4px 0 rgba(0,0,0,0.19);
+}
+.wrapper {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+.faq {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+   }
+   .faq.active {
+       border: none;
+   }
+.accordian {
+    background-color: #DF9DFF ;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.active,
+.accordian:hover {
+    background-color: white;
+}
+.panel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #DF9DFF;
+    display: none;
+}
+.panel p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+    line-height: 1.4;
 }

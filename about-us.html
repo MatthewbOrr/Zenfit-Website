@@ -7,6 +7,7 @@
     <link href="core-style.css" rel="stylesheet"  type="text/css">
     <link href="about-us.css" rel="stylesheet" type="text/css">
     <script src="sign-up.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -23,7 +24,9 @@
                 <li><button class="button button6" onclick="openPopup2()">Sign In</button></li>
         </ul>
     </nav>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
 </header>
 <div class="container1">
     <div class="popup1" id="popup">
@@ -58,6 +61,26 @@
                             <td><div class="row">
                                 <label for="password">Confirm Password</label>
                                 <input type="text" placeholder="Confirm Password">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="row">
+                                <label for="password">Card Name</label>
+                    <input type="text" placeholder="Card Name">
+                            </div></td>
+                            <td><div class="row">
+                                <label for="password">Card Number</label>
+                                <input type="text" placeholder="Card Number">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="row">
+                                <label for="password">CVV</label>
+                    <input type="text" placeholder="CVV">
+                            </div></td>
+                            <td><div class="row">
+                                <label for="password">Expiry date</label>
+                                <input type="text" placeholder="DD/MM/YYY">
                             </div></td>
                         </tr>
                     </table>   
@@ -108,13 +131,57 @@
     <div class="heading1">
         <h1 class="heading">Frequently Asked Questions</h1>
     </div>
-   
-        <p class="faq">
-            Q1<br>
-            Q2<br>
-            Q3<br>
-            Q4<br>
-        </p>
+    <div class="wrapper">
+        <div class="faq">
+            <button class="accordian">
+                What are your gym's operating hours?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Our gym is open 7 days a week! <br>
+                  - Monday to Friday: 5:00 AM – 10:00 PM <br>
+                  - Saturday and Sunday: 7:00 AM – 8:00 PM</p>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordian">
+                Do I need to sign a long-term contract?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>No, we offer flexible membership options. You can choose between month-to-month memberships or discounted annual plans—whatever fits your lifestyle best.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordian">
+                Are personal trainers available?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Yes! We have certified personal trainers available for one-on-one or small group sessions. You can book a free consultation to find the right trainer for your goals.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordian">
+                What amenities are included with my membership?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Your membership includes full access to all gym equipment, group fitness classes, locker rooms, showers, and sauna. Some locations also offer a smoothie bar and childcare services.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordian">
+                I'm a beginner. Is there support for new members?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <p>Absolutely! We offer a complimentary fitness assessment and beginner-friendly classes to help you feel confident and start strong. Our staff is always available to answer any questions and guide you.</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="accordian.js"></script>
         <div class="heading1">
             <h1 class="heading">Testimonials</h1>
         </div>
@@ -195,13 +262,14 @@
         <div class="fbuttons">
             <ul>
                 <li><a href="index.html"><img class="logo" src="./images/ZenFit-Logo.png" alt="ZenFitStudio" width="100px"></li></a>
-                <li><a href="membership.html"><button class="button button1">membership</button></a></li>
-                <li><a href="personal-trainers.html"><button class="button button2">personal trainers</button></a></li>
+                <li><a href="membership.html"><button class="button button1">Membership</button></a></li>
+                <li><a href="personal-trainers.html"><button class="button button2">Personal Trainers</button></a></li>
                 <li><a href="classes.html"><button class="button button3">Classes</button></a></li>
                 <li><a href="about-us.html"><button class="button button4">Contact Us/FAQ</button></a></li>
                 <li class="terms"><a href="terms-policy.html">Terms of Service</a></li>
                 <li class="terms"><a href="terms-policy.html">Privacy Poicy</a></li>
             </ul> 
         </div> 
+
     </footer>
 </html>

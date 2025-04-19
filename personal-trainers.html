@@ -7,6 +7,7 @@
     <link href="core-style.css" rel="stylesheet"  type="text/css">
     <link href="personal-trainers.css" rel="stylesheet"  type="text/css">
     <script src="sign-up.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -82,6 +83,26 @@
                         <td><div class="row1">
                             <label for="password">Password</label>
                             <input type="text" placeholder="Password">
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="row">
+                            <label for="password">Card Name</label>
+                <input type="text" placeholder="Card Name">
+                        </div></td>
+                        <td><div class="row">
+                            <label for="password">Card Number</label>
+                            <input type="text" placeholder="Card Number">
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="row">
+                            <label for="password">CVV</label>
+                <input type="text" placeholder="CVV">
+                        </div></td>
+                        <td><div class="row">
+                            <label for="password">Expiry date</label>
+                            <input type="text" placeholder="DD/MM/YYY">
                         </div></td>
                     </tr>
                 </table>   
@@ -169,7 +190,80 @@
             </ul>
         </div>
     </section>
-    <img class="calendar" src="./images/Calendar.png" alt="Booking Calendar">
+    <div class="heading1">
+        <h1 class="heading">Book your classes and Personal trainers below!</h1>
+    </div>
+    <div class="calendar">
+        <table class="table">
+            <tr>
+                <td class="booking-con">
+                    <form class="booking-box">
+                        <p><strong>Classes:</strong></p><br>
+                        <label>
+                            <input type="checkbox" name="yoga">
+                            Yoga
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="pilates">
+                            Pilates
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="hiit">
+                            HIIT
+                        </label>
+                        
+                        <p><strong>Personal Trainers:</strong></p>
+                        <label>
+                            <input type="checkbox" name="marcus">
+                            Marcus
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="laura">
+                            Laura
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="tony">
+                            Tony
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="shayne">
+                            Shayne
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="avani">
+                            Avani
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="naomi">
+                            Naomi
+                        </label><br>
+                </form>        
+                </td>
+                <td>
+                    <div class="calendar-box">
+                        <div class="header1">
+                            <div id="prev" class="btn"><i class="fa-solid fa-arrow-left"></i></div>
+                            <div id="month-year"></div>
+                            <div id="next" class="btn"><i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                        <div class="weekdays">
+                            <div>Sun</div>
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thu</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                        </div>
+                        <div class="days" id="days"></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="calendar.js"></script>
+    <button class="button button7">Book your Class or Person Trainer</button>
+
     <footer>
         <ul class="icon">
             <li><img src="./images/f-icon.png" alt="facebook" width="40px"></li>
@@ -179,8 +273,8 @@
         <div class="fbuttons">
             <ul>
                 <li><a href="index.html"><img class="logo" src="./images/ZenFit-Logo.png" alt="ZenFitStudio" width="100px"></li></a>
-                <li><a href="membership.html"><button class="button button1">membership</button></a></li>
-                <li><a href="personal-trainers.html"><button class="button button2">personal trainers</button></a></li>
+                <li><a href="membership.html"><button class="button button1">Membership</button></a></li>
+                <li><a href="personal-trainers.html"><button class="button button2">Personal Trainers</button></a></li>
                 <li><a href="classes.html"><button class="button button3">Classes</button></a></li>
                 <li><a href="about-us.html"><button class="button button4">Contact Us/FAQ</button></a></li>
                 <li class="terms"><a href="terms-policy.html">Terms of Service</a></li>
@@ -188,4 +282,5 @@
             </ul> 
         </div> 
     </footer>
+</body>
 </html>

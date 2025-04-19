@@ -3,6 +3,7 @@
   text-align: center;
   color: white;
   margin: 50px;
+  letter-spacing: 3px;
 }
 .heading1 {
   box-sizing: border-box;
@@ -45,8 +46,6 @@
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
   }
 
-
-
   .banner {
     box-sizing: border-box;
     background-color: #aa56d2;
@@ -75,9 +74,70 @@
   .bimages-slide img {
       border: 2px solid black;
   }
-  .calendar {
-    display: block;
-    margin: 50px auto;
-    width: 90%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-  }
+.calendar {
+    background-color: #aa56d2;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #222222;
+    overflow: hidden;
+    width: 50%;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    }
+  .header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    }
+  .btn {
+    cursor: pointer;
+    }
+  #month-year {
+    font-weight: bold;
+    font-size: 20px;
+    }
+  .weekdays, .days {
+    display: flex;
+    flex-wrap: wrap;
+    }
+  .days {
+    height: 250px;
+    }
+  .weekdays div, .days div {
+    width: 10%;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    }
+  .days div {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+  .days div:hover {
+    background-color: white;
+    color: #aa56d2;
+    }
+  .days .today {
+    background-color: #f3dcff;
+    color: #aa56d2;
+    }
+.days .fade {
+    color: #555;
+    }
+
+.table {
+  margin: auto;
+}
+
+.booking-con {
+      display: block;
+      margin: auto;
+      padding-right: 50px;
+    }
+.booking-box {
+      margin: 30px;
+    }
