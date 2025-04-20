@@ -46,6 +46,9 @@ padding: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
     }
+    .button7 {
+      margin-bottom: 50px;
+    }
   .header1 {
     display: flex;
     justify-content: space-between;
